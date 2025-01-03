@@ -1,0 +1,58 @@
+.divFirst{
+    background-color: black;
+}
+.hone , .htwo{
+    background-color: aqua;
+}
+.divFirstHtwo{
+    background-color: blue;
+}
+
+
+div{
+    background-color: bisque;
+}
+
+.divh{
+    background-color: blueviolet;
+}
+
+#divF{
+    background-color: aquamarine;
+    height: 400px;
+    background-image: url("img1.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#divF {
+    position: relative;
+    height: 400px;
+    background-image: url("img1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(127, 255, 212, 0.6); /* لایه نیمه‌شفاف */
+}
+
+
+
+
+
+
+
+
+
+
+
+

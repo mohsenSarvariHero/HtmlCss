@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form style="text-align: center;">
+        <label>name : </label>
+        <input type="text" placeholder="mohsen sarvari" maxlength="5" required  >
+        <br>
+        <br>
+        <label>password : </label>
+        <input style="border: 5px solid blue;" type="password"  max="10" min="5" required>
+        <br>
+        <br>
+        <label>email : </label>
+        <input type="email"  placeholder="1254@gmail.com">
+        <br>
+        <br>
+        <label>phone : </label>
+        <input type="tel"  placeholder="123-456-7894" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br>
+        <br>
+        <label>date : </label>
+        <input type="date"  >
+        <br>
+        <br>
+        <label>quantity : </label>
+        <input type="number" min="0" max="10" >
+        <br>
+        <br>
+        <label>lesson : </label>
+        <label>html</label>
+        <input type="radio" min="0" max="10"  >
+        <label>css</label>
+        <input type="radio" min="0" max="10" >
+        <label>js</label>
+        <input type="radio" min="0" max="10" >
+        <br>
+        <br>
+        <label>payment:</label>
+        <select>
+            <option>card</option>
+            <option>card2</option>
+            <option>card3</option>
+        </select>
+
+        <br>
+        <br>
+        <label>comment:</label>
+        <textarea rows="3" cols="38"></textarea>
+
+        <br>
+        <br>
+
+        <label>file: </label>
+        <input type="file" accept="image/png">
+        <br>
+        <br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+
+
+
+</body>
+</html>
