@@ -1,0 +1,15 @@
+.hone{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+.border2{
+    /* border-style: dotted;
+    border-width: 5px;
+    border-color: aquamarine;  */
+    
+    border:  dotted 5px blue  ;
+}
+.divF{
+    border: 5px solid red;
+    border-radius: 20px;
+}

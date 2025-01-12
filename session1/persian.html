@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Persian Numbers</title>
+</head>
+<body>
+    <h1 id="number">1542</h1>
+    <h1>1542</h1>
+
+    <script>
+        // Function to convert English numbers to Persian
+        function convertToPersianNumber(number) {
+            const persianDigits = '۰۱۲۳۴۵۶۷۸۹';
+            return number.toString().replace(/\d/g, digit => persianDigits[digit]);
+        }
+
+        // Get the current number from the h1 element
+        const numberElement = document.getElementById('number');
+        const number = numberElement.textContent; // Retrieve the current text
+
+        // Convert the number to Persian and update the h1 content
+        numberElement.textContent = convertToPersianNumber(number);
+    </script>
+</body>
+</html>

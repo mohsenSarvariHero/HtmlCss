@@ -1,0 +1,96 @@
+.header{
+    background-color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header2{
+    border: 2px solid black;
+}
+
+.divPublic{
+    border: 2px solid red;
+}
+
+.divFirst{
+    /* margin-top : 80px;
+    margin-left: 50px;
+    margin-right: 40px;
+    margin-bottom: 50px; */
+    margin : 80px 40px 50px 50px;
+    margin : 0px auto;
+    
+    outline-style: solid;
+    outline-offset: 10px;
+    outline-color: aqua;
+    text-shadow: 5px 5px black;
+    max-width: 400px;
+
+}
+.divFirst:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.divSecond{
+    background-image:url("img1.jpg") ;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* padding-left: 50px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-right: 200px; */
+    padding: 80px 200px 40px 50px;
+    height: 200px;
+    width: 100px;
+    overflow-x: auto;
+}
+
+.links:link{
+    color: rgb(55, 0, 255);
+
+}
+.links:visited{
+    color: brown;
+}
+
+.links:hover{
+    color: aqua;
+}
+.links:active{
+    color: black;
+}
+.unorder{
+    list-style-type: none;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    position: sticky;
+    
+}
+
+/* .divEnd p{
+    color: blanchedalmond;
+} */
+/* .divEnd > p{
+    color: blanchedalmond;
+} */
+.divEnd  p{
+    color: blanchedalmond;
+}
+.divEnd div p {
+    color: blueviolet;
+}
+.divEnd:hover {
+    opacity: 1;
+}
+.linkEnd{
+    opacity: 0.6;
+    font-size: 40px;
+}
+.linkEnd:hover {
+    opacity: 1;
+}
