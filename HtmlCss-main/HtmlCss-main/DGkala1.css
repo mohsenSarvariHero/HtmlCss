@@ -1,0 +1,104 @@
+/* .backgroundimg {
+  position: relative;
+  background: linear-gradient(rgba(77, 3, 11, 0) 30%);
+  width: 100%;
+  height: 500px;
+} */
+.backgroundimg {
+  position: relative;
+  background-image: url(39f62894dc0b13f45405b1dc34731b369f6a8322_1638962951.png);
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin-top: 70px;
+  border-radius: 5px;
+
+}
+
+
+.hone {
+  text-align: right;
+  direction: rtl;
+  position: absolute;
+  color: #ffffff;
+  top: 50%;
+  right: 15%;
+  text-shadow: 0 1px 8px;
+  font-size: 33px;
+  font-weight: 800;
+  line-height: 2;
+
+}
+.pone {
+  text-align: right;
+  direction: rtl;
+  position: absolute;
+  color: #ffffff;
+  top: 65%;
+  right: 15%;
+  text-shadow: 0 1px 8px;
+  font-weight: 700;
+  font-size: 26px;
+}
+.butnsabtnam {
+  text-align: center;
+  direction: rtl;
+  position: absolute;
+  color: #ffffff;
+  top: 85%;
+  right: 15%;
+  background-color: #a41935;
+  border-color: #a41935;
+  border-radius: 5px;
+  border-bottom: 40px;
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.topnav{
+  display: flex;
+  background-color: #a41935;
+  border-radius: 10px;
+  border: 1px solid #a41935;
+  height: 70px;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 15px;
+  color: #ffffff;
+  position: fixed;
+  width: 97.5%;
+  margin-right: 15px;
+  top: 0;
+  left: 6px;
+  z-index: 1;
+}
+
+.topnav div a{
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+.sbtnamnavbar{
+  text-align: center;
+  border-radius: 10px;
+  border:1px solid #ffffff;
+  /* width: 130px;
+  height: 40px; */
+  padding:10px 70px ;
+  cursor: pointer;
+  font-size: 12px;
+}
+@font-face  {
+  font-family: myFirstFont;
+  src: url(Qs_Iranyekan\ light.ttf);
+}
+
+* {
+  font-family: myFirstFont;
+}
+

@@ -1,0 +1,54 @@
+.divFirst{
+    background-color: aqua;
+    border: 2px solid black;
+    display: flex;
+    height: 450px;
+    justify-content: space-between;
+ 
+
+    
+}
+.divFirst div{
+    border: 2px solid red;
+    width: 50px;
+    height: 80px;
+
+}
+ul{
+    list-style-type :none ;
+    display: flex;
+    gap: 50px;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    outline: 2px solid  aquamarine;
+}
+ul li {
+    cursor: pointer;
+}
+.liThree{
+    margin-left: auto;margin-right: 40px;
+}
+/*بدون box-sizing */
+.diva {
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #000;
+  } 
+  
+  /* با box-sizing: border-box */
+   .divb {
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #000;
+  } 
+  
+@media (max-width : 500px) {
+    ul{
+        flex-direction: column;
+    }
+    .liThree{
+        margin: 0px;
+    }
+}
