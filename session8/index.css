@@ -1,0 +1,32 @@
+
+
+.containerH{
+    display: grid;
+    grid-template-areas: 
+    'h1 h1 h1 h1 h1'
+    's1 s1 m1 m1 m1'
+    'f1 f1 f1 f1 f1'
+    ;
+    gap: 10px;
+}
+.containerH > div{
+    background-color: antiquewhite;
+    text-align: center;
+    align-content: center;
+}
+.h1{
+    grid-area: h1;
+    height: 200px;
+}
+.s1{
+    grid-area: s1 ;
+   
+}
+
+.m1{
+    grid-area: m1;
+  
+}
+.f1{
+    grid-area: f1;
+}

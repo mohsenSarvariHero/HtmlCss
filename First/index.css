@@ -1,0 +1,692 @@
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Popins;
+  src: url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+}
+.body {
+  font-family: Popins;
+}
+.textBold {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Popins;
+  color: #7d7c7c;
+  line-height: 24px;
+}
+.nav-item :hover {
+  color: #c90000;
+  font-weight: 600;
+  font-size: 16px;
+}
+.textBold1 {
+  font-size: 18px;
+  font-family: Popins;
+  font-weight: 500;
+  color: #c90000;
+}
+.navbar-toggler {
+  border: none;
+}
+.spacRight {
+  margin-right: 50px;
+}
+
+.banner h2 {
+  font-family: Popins;
+  color: #c90000;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  filter: drop-shadow(2px 5px 2px #a39d9d);
+}
+.textHero {
+  font-family: Popins;
+  color: #504f4f;
+  filter: drop-shadow(-2px 7px 1px #ece4e4);
+}
+.priceHero {
+  font-family: Popins;
+  margin-top: 80px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #323232;
+}
+.priceHero span {
+  font-family: Popins;
+  font-weight: 300;
+  font-size: 24px;
+  color: black;
+  line-height: 36px;
+}
+.orderHero {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.orderHero p {
+  font-family: Popins;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 18px;
+  border: 1px solid beige;
+  padding: 1px 2px;
+  width: 120px;
+  color: #7d7c7c;
+
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 25px;
+
+  background: white;
+  filter: drop-shadow(3px 5px 10px #5a5858);
+}
+.orderHero span {
+  font-family: Popins;
+  color: #ffc300;
+  margin: 0px 20px;
+}
+.orderHero h3 {
+  font-family: Popins;
+  background-color: #ffc300;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 100px;
+}
+.deliveryHero {
+  font-family: Popins;
+  text-align: center;
+  background: #f1f1f1;
+  height: 95px;
+  padding-top: 5px;
+  width: 180px;
+  padding: 20px;
+  padding-bottom: 5px;
+  border-radius: 50% 40% 0% 50%;
+}
+.deliveryHero p {
+  font-weight: 500;
+  font-size: 25px;
+  font-family: Popins;
+}
+.deliveryHero span {
+  font-family: Popins;
+  font-weight: 300;
+  font-size: 20px;
+  color: #7d7c7c;
+}
+.menu {
+  margin-top: 70px;
+  padding: 10px 65px;
+}
+.menu hr {
+  border: none;
+  background: yellow;
+  height: 10px;
+  width: 140px;
+  margin-top: -18px;
+}
+.menu h1 {
+  font-family: Popins;
+  color: #c90000;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+}
+.menuBar {
+  margin: 70px 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.menuCard {
+  background: #e3e3e333;
+}
+.menuBar li {
+  font-family: Popins;
+  background: #f1f1f1;
+  padding: 12px 18px;
+  border-radius: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #504f4f;
+}
+.menuBar li:hover {
+  background-color: #ffc300;
+  color: #323232;
+  font-weight: 500;
+
+  font-size: 16px;
+  cursor: pointer;
+}
+.menuBar1 {
+  padding: 12px 18px;
+  border-radius: 40px;
+}
+.first .card-img-top {
+  height: 170px;
+  width: 227px;
+  border-radius: 30px;
+}
+.first .card {
+  border-radius: 12px;
+}
+.first .card-title {
+  font-weight: 600;
+  font-family: Popins;
+  font-size: 20px;
+  color: #323232;
+}
+.first .card-text {
+  color: #504f4f;
+  font-family: Popins;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.first .stars {
+  margin-top: -12px;
+  margin-bottom: 21px;
+  display: flex;
+  align-items: center;
+}
+.first .stars span {
+  color: #7d7c7c;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: Popins;
+  line-height: 25px;
+}
+.first .endCard {
+  margin-top: 15px;
+}
+.first .endCard p {
+  font-family: Popins;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 36px;
+  color: #323232;
+}
+.first .endCard button {
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+.first .textEnd {
+  font-weight: 600;
+  font-size: 20px;
+  color: #494747;
+}
+.middleContext {
+  margin-top: 100px;
+}
+.middleContext hr {
+  width: 10%;
+  background: yellow;
+  border: none;
+  height: 10px;
+  margin: auto;
+  margin-top: -17px;
+}
+.second .card img:hover {
+  background-color: red;
+  color: #383737;
+}
+.card-img-overlay:hover {
+  h5 {
+    color: red;
+  }
+}
+.saleOff {
+  margin: 5px 25px;
+  margin-left: 52px;
+}
+.saleOffHead {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  margin-top: 120px;
+  color: #c90000;
+}
+.saleOffHeadhr {
+  border: none;
+  background: #f5e879;
+  height: 15px;
+  width: 220px;
+  margin: auto;
+  margin-top: -34px;
+  margin-bottom: 40px;
+}
+.saleOff1 {
+  border: 1px solid gainsboro;
+  border-radius: 20px;
+  width: 370px;
+  height: 335px;
+  background: #f1f1f1;
+  display: flex;
+  overflow: hidden;
+}
+.firstLineLeft {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 40px 0px 0px 32px;
+}
+.firstLineLeft hr {
+  width: 74.7%;
+  height: 2px;
+  border: none;
+  background: #7d7c7c;
+  margin-top: 1px;
+}
+.leftSaleOffTitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #323232;
+}
+.leftSaleOff h1 {
+  padding: 0px 0px 10px 32px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: #c90000;
+}
+.leftSaleOffText {
+  padding: 0px 0px 10px 32px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #504f4f;
+}
+.saleOff1Price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 32px;
+}
+.saleOff1Price h4 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #7d7c7c;
+}
+.saleOff1Price h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #c90000;
+}
+.imgSale2 {
+  margin-top: -450px;
+  margin-left: 180px;
+}
+.saleOff1Button {
+  width: Hug (140px) px;
+  height: Hug (40px) px;
+  padding: 8px 12px 8px 12px;
+  font-family: Popins;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #504f4f;
+  color: white;
+  outline: none;
+  border: none;
+  margin: 20px 12px;
+}
+.saleOff1 img {
+  margin-top: -370px;
+  margin-left: 160px;
+}
+.saleOff1:hover {
+  background: #d62822;
+  scale: 1.05;
+
+  h1 {
+    color: #ffc300;
+  }
+  .leftSaleOffTitle {
+    color: #ffeae6;
+  }
+  .firstLineLeft hr {
+    background: #ffeae6;
+  }
+  .saleOff1Price h4 {
+    color: #f1f1f1;
+  }
+  .saleOff1Price h3 {
+    color: #ffc300;
+  }
+  .leftSaleOffText {
+    color: #f1f1f1;
+  }
+  .saleOff1Button {
+    background: #fffde6;
+    color: #323232;
+  }
+}
+
+.MobileApp {
+  margin-top: 154px;
+  width: 93%;
+  height: 350px;
+
+  padding: 60px 0px 60px 0px;
+  gap: 32px;
+  border-radius: 0px 500px 500px 0px;
+  border: 1px 0px 0px 0px;
+  background: #f1f1f1;
+  display: flex;
+}
+.burgerMobile {
+  width: 352px;
+  height: 427px;
+  top: 16px;
+  gap: 0px;
+  opacity: 8%;
+  margin-left: 180px;
+  margin-top: -122px;
+}
+.mobileImg {
+  width: 400px;
+  height: 462px;
+  margin-top: -180px;
+  margin-left: -380px;
+  background: transparent;
+  width: 329.97px;
+
+  border-radius: 42px 42px 0px 0px;
+}
+.MobileAppFtext {
+  background-color: #fffde6;
+  border-radius: 20px;
+  padding: 20px;
+  z-index: 1;
+}
+
+.MobileAppFtext span {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Popins;
+  line-height: 24px;
+  color: #323232;
+}
+.mobileStwo h3 {
+  font-family: Popins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #7d7c7c;
+}
+.mobileStwo h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 72px;
+  font-family: Popins;
+  color: #c90000;
+}
+.mobileStwo p {
+  font-family: Popins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #323232;
+}
+.btnFirst {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  height: 50px;
+  padding: 10px 12px;
+  padding-top: 25px;
+
+  border-radius: 50px;
+  background-color: #504f4f;
+  border: none;
+  color: white;
+  margin-bottom: 50px;
+}
+.btnSecond {
+  display: flex;
+  align-items: center;
+  width: 170px;
+  height: 50px;
+  padding: 10px 12px;
+  padding-top: 25px;
+
+  border-radius: 50px;
+  background-color: #504f4f;
+  border: none;
+  color: white;
+  margin-bottom: 50px;
+}
+.btnSecond p {
+  font-weight: 300;
+  font-family: Popins;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 24px;
+}
+.btnSecond p span {
+  font-family: Popins;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 24px;
+}
+.btnFirst p {
+  font-family: Popins;
+  font-weight: 300;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 24px;
+}
+.btnFirst p span {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Popins;
+  color: #ffffff;
+  line-height: 24px;
+}
+
+.findFood {
+  overflow: hidden;
+  margin: 50px auto;
+  width: fix(1169px) px;
+  height: 398px;
+
+  border-radius: 20px;
+  background: #323232;
+}
+.findFoodFirst {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.findFoodFirst h1 {
+  margin-top: 35px;
+  font-size: 48px;
+  font-family: Popins;
+  font-weight: 500;
+  line-height: 72px;
+
+  color: #fffde6;
+}
+.findFood p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: -70px;
+
+  color: #fffde6;
+}
+.findFoodform {
+  text-align: center;
+}
+.findFoodform input {
+  width: 532px;
+  border-radius: 100px;
+  background: #ffc300;
+  border: none;
+  height: 59px;
+  color: #504f4f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-left: 25px;
+}
+
+.findFoodform button {
+  width: 148px;
+  height: 50px;
+  padding: 12px 30px 12px 30px;
+  gap: 12px;
+  font-family: Popins;
+  border-radius: 100px;
+  border: none;
+  color: #323232;
+  background: #ffeae6;
+  margin-left: -159px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .findFood {
+    height: 480px;
+  }
+  .findFoodFirst h1 {
+    line-height: 30px;
+    font-size: 24px;
+  }
+  .findFood p {
+    margin-left: 150px;
+    margin-top: -53px;
+  }
+
+  .findFoodform input {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .findFoodform button {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .findFood img {
+    width: 100%;
+    height: auto;
+  }
+}
+.footer {
+  background-color: #fffde6;
+  display: flex;
+  gap: 130px;
+  padding-left: 250px;
+  margin-top: 80px;
+}
+.footerP1S1 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-top: 80px;
+}
+.footerP1S1 img {
+  width: 70px;
+  height: 75px;
+  background: #c90000;
+  padding: 20px 5px;
+}
+.logoreal {
+  width: 70px;
+  height: 75px;
+  background: #c90000;
+  padding: 20px 5px;
+}
+.footerP1S1 h1 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  color: #323232;
+}
+.footerSocial {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 20px;
+  color: #7d7c7c;
+
+  gap: 40px;
+}
+
+.footerP2 {
+  display: flex;
+  gap: 120px;
+}
+.footerP2 h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 36px;
+  font-family: Popins;
+
+  color: #323232;
+}
+.footerP2 ul {
+  padding: 0px;
+  margin: 0px;
+  margin-top: 50px;
+}
+.footerP2 ul li {
+  list-style-type: none;
+  font-size: 16px;
+  font-family: Popins;
+  font-weight: 300;
+  line-height: 36px;
+
+  color: #323232;
+}
+
+@media screen and (max-width: 768px) {
+  .banner {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column-reverse;
+    width: fit-content;
+  }
+}
+@media screen and (max-width: 998px) {
+  .MobileApp {
+    width: 100%;
+    height: 870px;
+    flex-direction: column-reverse;
+    border-radius: 500px 500px 0px 0px;
+  }
+  .mobileStwo {
+    margin-top: 50px;
+    margin-left: 120px;
+  }
+  .firstMobile {
+    margin-top: 100px;
+  }
+}

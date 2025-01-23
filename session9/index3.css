@@ -1,0 +1,54 @@
+.head1{
+    text-align: center;
+
+}
+/* .text-center{
+    color: aqua;
+} */
+
+
+.p1{
+    background-color: aquamarine;
+    font-size: 50px;
+    display: none;
+    position: absolute;
+}
+/* .hover1:hover .divLink{
+    visibility: visible;
+    position: relative;
+    z-index: 1;
+} 
+
+.divLink{
+    visibility: hidden;
+    position: absolute;
+    border: 2px solid black;
+    padding: 50px;
+    background-color: antiquewhite;
+    color: gray;
+    bottom: -5px;
+} */
+
+.hover1 {
+    position: relative; /* Ensures .divLink is positioned relative to .hover1 */
+}
+
+.hover1:hover .divLink {
+    visibility: visible; /* Show the element on hover */
+    opacity: 1; /* Optional: smooth fade-in effect */
+    transition: opacity 0.3s ease-in-out; /* Optional: fade effect */
+}
+
+.divLink {
+    visibility: hidden; /* Initially hidden */
+    opacity: 0; /* Match with transition for smooth visibility toggle */
+    position: absolute; /* Keep it positioned relative to .hover1 */
+    border: 2px solid black;
+    padding: 20px; /* Adjust padding as needed */
+    background-color: antiquewhite;
+    color: gray;
+
+}
+
+
+
