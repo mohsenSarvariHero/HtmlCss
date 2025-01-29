@@ -30,21 +30,21 @@
 } */
 
 .hover1 {
-    position: relative; /* Ensures .divLink is positioned relative to .hover1 */
+    position: relative; 
 }
 
 .hover1:hover .divLink {
-    visibility: visible; /* Show the element on hover */
-    opacity: 1; /* Optional: smooth fade-in effect */
-    transition: opacity 0.3s ease-in-out; /* Optional: fade effect */
+ display: block;
+   
+    transition: opacity 0.3s ease-in-out; 
 }
 
 .divLink {
-    visibility: hidden; /* Initially hidden */
-    opacity: 0; /* Match with transition for smooth visibility toggle */
-    position: absolute; /* Keep it positioned relative to .hover1 */
+    display: none;
+
+    position: absolute; 
     border: 2px solid black;
-    padding: 20px; /* Adjust padding as needed */
+    padding: 20px; 
     background-color: antiquewhite;
     color: gray;
 

@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(56, 56, 54);
+}
+.colorNav {
+  background-color: rgb(91, 94, 94);
+  color: white !important;
+  height: 80px;
+}
+.navbar-brand {
+  color: red;
+}
+.nav-link {
+  color: white;
+}
+.hero {
+  background-color: rgb(98, 98, 98);
+  height: 400px;
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 150px;
+}
+.div--hero {
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.div--hero h1 {
+  text-shadow: 2px 2px black;
+}
+.hero--btn {
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  padding: 5px;
+  font-size: 20px;
+}
+.div--hero--second img {
+  width: 300px;
+  padding-top: 40px;
+}

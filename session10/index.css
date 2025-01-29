@@ -1,0 +1,46 @@
+nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Default: 12-column grid */
+    gap: 10px; /* Add some spacing between grid items */
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+nav ul li a{
+    color: white;
+}
+
+nav ul .h1 {
+    background-color: aqua;
+    grid-column: span 1; /* Occupies 2 columns */
+    text-align: center;
+   
+}
+
+nav ul .h2 {
+    background-color: aqua;
+    grid-column: span 1; /* Occupies 2 columns */
+    text-align: center;*/
+   
+}
+
+nav ul .h3 {
+    background-color: aqua;
+    grid-column: span 1; /* Occupies 2 columns */
+    text-align: center;
+}
+
+/* Responsive Layout: For screens smaller than or equal to 700px */
+@media (max-width: 700px) {
+    nav ul {
+        grid-template-columns: 1fr; /* Single-column grid */
+    }
+
+    nav ul .h1,
+    nav ul .h2,
+    nav ul .h3 {
+        grid-column: span 1; /* Items span full width of the column */
+        margin-left: 0; /* Reset margin for proper alignment */
+    }
+}

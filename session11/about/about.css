@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(56, 56, 54);
+  }
+  .colorNav {
+    background-color: rgb(91, 94, 94);
+    color: white !important;
+    height: 80px;
+  }
+  .navbar-brand {
+    color: red;
+  }
+  .nav-link {
+    color: white;
+  }
+.bgProgress{
+    background-color: black;
+}
+.list-group{
+    background-color: blue ;
+}
+.bgSkills{
+    background-color: black !important;
+}
+.bg-dark{
+    background-color: rgb(59, 60, 60) !important;
+}

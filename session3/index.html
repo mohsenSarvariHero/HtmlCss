@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="index.css" rel="stylesheet" />
     <style>
         table, th , td{
             border: 1px solid black;
@@ -16,8 +18,69 @@
         }
     </style>
 </head>
-<body style="width: 20%; margin: auto;">
+<body >
     
+    <div class="container">
+        <nav class="navbar navbar-expand-lg  p-4 nav-pills">
+          <div class="container-fluid">
+            <a class="navbar-brand mx-lg-4 " href="#">
+              <img  src="../First/img/logoreal.png" width="70" class="logoreal" />
+             
+            </a>
+    
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">List</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-4 textBold" aria-current="page" href="#">HomePage</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-4 textBold" href="../session2/form.html">session2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-4 textBold" href="../session3/index.html">session3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-4 textBold" href="../session4/index.html">session4</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-4 textBold" href="../session5ndex.html">session5</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-4 textBold" href="../session6/index.html">session6</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-4 textBold" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-4 textBold hover1" href="#">Contact
+          
+                    </a>
+                  </li>
+                </ul>
+            
+    
+              </div>
+            </div>
+            <form class="d-flex mt-2 spacRight" role="search">
+    
+              <button class="btn btn-outline-danger rounded-5 mx-2 font-weight-bold textBold1" type="submit">Sign in
+              </button>
+              <button class="btn btn-outline-danger rounded-5 textBold1" type="submit">Login in</button>
+            </form>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+    </div>
+
+
     <table style="text-align: center;">
         <tr>
             <th>name</th>
@@ -40,5 +103,8 @@
             <td>efms@gmail.com</td>
         </tr>
     </table>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
